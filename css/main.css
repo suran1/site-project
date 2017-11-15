@@ -1,6 +1,12 @@
 /**************************/
+.wrap{
+  background: #a00;
+  height:130px;
+  color: #fff;
+  padding: 0px;
+  margin-bottom: 0px;
 
-
+}
 
 
 
@@ -8,11 +14,9 @@
 /************** services showcase *******/
 .showcase{
   min-height: 400px;
-  background: url('../image/img1.jpeg') no-repeat;
-  text-align:;
+  background: url('../image/cover.jpeg') no-repeat 0 -400px;
+  text-align:left;
   color:#fff;
-  margin-bottom: 0px;
-
 }
 
 .showcase h1{
@@ -25,13 +29,37 @@
   font-size: 20px;
 }
 .main{
-  height:100px;
-  background-color: #dcdcdc;
-  margin: 0px;
+  height:140px;
+  background-color: #a00;
+  margin-top: 0px;
   text-align: center;
+  color:#fff;
 }
 .main h2{
   padding-top: 10px;
+}
+
+
+/****************contact**************/
+
+.jumbotron{
+  background: #a00;
+  color: #fff;
+  border-radius: 0px;
+
+}
+
+.jumbotrun-sm{
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+}
+.jumbotron small{
+  color:#fff;
+
+}
+.header small{
+  font-size: 24px;
 }
 
 
@@ -39,8 +67,8 @@
 
 /******************footer*****/
 footer{
-    padding:20px;
-    margin-top:20px;
+    padding:15px;
+    margin-top:0px;
     color:#000;
     background-color:#f0f8ff;
     text-align: center;
