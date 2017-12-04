@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
         crossorigin="anonymous">
     <!-- fontasome-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Custom css-->
     <link rel="stylesheet" href="css/main.css">
@@ -22,7 +21,7 @@
 
     <!--Navigation here-->
     <header class="container">
-            <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color:#a00;">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color:#a00;">
             <a class="navbar-brand" href="#"><img src="image/logo-full-copy.png" alt="logo"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -55,7 +54,8 @@
 
             </div>
         </nav>
-    </header> <!-- end of Header-->
+    </header>
+    <!-- end of Header-->
 
 
     <section class="showcase">
@@ -129,7 +129,7 @@
                 <form>
                     <legend><span class="glyphicon glyphicon-globe"></span> Our Office</legend>
                     <address>
-                     1551 N Leveeret Ave 63<br>Fayetville,AR 72703<br>
+                        1551 N Leveeret Ave 63<br>Fayetville,AR 72703<br>
                         <abbr title="Phone">
                                 P:</abbr> (479)-2253839
                     </address>
@@ -143,48 +143,55 @@
     </div>
 
 
-
+<!--google map -->
+<h1> My Google Map</h1>
+<div id="map">
+     </div>
 
 
 
 
     <!--middle-part-->
     <div class="wrap">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3 class="body-title">Email</h3>
-                    <p>er.suran@gmail.com</p>
-                </div>
-        
-                <div class="col-md-4">
-                    <h3 class="body-title">479-225-3839</h3>
-                    <p>479-225-3839</p>
-                </div>
-        
-        
-                <div class="col-md-4">
-                    <h3 class="body-title">Location</h3>
-                    <p>1551 N Leveerte, Ave 63</p>
-                </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="body-title"> <i class="fa fa-envelope"></i> Email</h3>
+                <p>er.suran@gmail.com</p>
             </div>
+
+            <div class="col-md-4">
+                <h3 class="body-title"> <i class="fa fa-phone"> </i> 479-225-3839</h3>
+                <p> 479-225-3839</p>
             </div>
-        
-            <!--footer-->
-            <footer>
-        
-                <p>Copyright @ Design and Developed by Suran</p>
-        
-            </footer>
-        
-        
-        
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-            <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-                crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-                crossorigin="anonymous"></script>
-            <script src="scripts/main.js"></script>
-        </body>
-        
-        </html>
+
+
+            <div class="col-md-4">
+                <h3 class="body-title"><i class="fa fa-road"> </i> Location</h3>
+                <p>1551 N Leveerte, Ave 63</p>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+
+        <p>Copyright @ Design and Developed by Suran</p>
+
+    </footer>
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+       <!-- google map-->
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8QZdeG_u4vgEhJYAqBILBPukb2mhLbPw&callback=initMap">
+        </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
