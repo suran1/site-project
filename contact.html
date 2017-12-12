@@ -8,6 +8,8 @@
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
         crossorigin="anonymous">
+         <!--animate.css-->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
     <!-- fontasome-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -32,22 +34,22 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
+                    <li>
                     <a class="nav-link" href="about.html"> About Us</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"> services</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Weeding</a>
-                            <a class="dropdown-item" href="#">Baby Shower</a>
-                            <a class="dropdown-item" href="#">Birthday</a>
-                        </div>
-                    </li>
+                    
+                    <li>
+                        <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                    
+                    <li>
                     <a class="nav-link" href="reservation.html">Reservation</a>
                     </li>
-                    <a class="nav-link" href="event.html">Events</a>
-                    </li>
+                    
+                    <li>
                     <a class="nav-link" href="gallary.html">Gallary Events</a>
-                    </li><a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <a class="nav-link" href="contact.html">Contact</a>
 
                     </li>
                 </ul>
@@ -60,8 +62,8 @@
 
     <section class="showcase">
         <div class="container">
-            <h1>Contact Us</h1>
-            <p> Get in Touch with Us.</p>
+            <h1 class="animated infinite bounce">Contact Us</h1>
+            <p class="animated zoomInLeft"> Get in Touch with Us.</p>
         </div>
     </section>
 
@@ -72,7 +74,7 @@
             <div class="row">
                 <div class="col-sm-12 col-lg-12">
                     <h1 class="header">
-                        Address Info <small>Feel free to contact us</small></h1>
+                     <marquee>   Address Info <small>Feel free to contact us</small></h1></marquee>
                 </div>
             </div>
         </div>
@@ -143,10 +145,13 @@
     </div>
 
 
-<!--google map -->
-<h1> My Google Map</h1>
-<div id="map">
-     </div>
+    <!--google map -->
+    <div class="google-map">
+        <h1>Google Map Location</h1>
+        <div id="map">
+        </div>
+    </div>
+
 
 
 
@@ -187,10 +192,9 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
-       <!-- google map-->
-        <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8QZdeG_u4vgEhJYAqBILBPukb2mhLbPw&callback=initMap">
-        </script>
+    <!-- google map-->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8QZdeG_u4vgEhJYAqBILBPukb2mhLbPw&callback=initMap">
+    </script>
     <script src="js/main.js"></script>
 </body>
 

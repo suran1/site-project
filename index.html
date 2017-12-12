@@ -8,6 +8,8 @@
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
         crossorigin="anonymous">
+        <!--animate.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
     <!-- fontasome-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -33,22 +35,22 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
+                    <li>
                     <a class="nav-link" href="about.html"> About Us</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"> services</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Weeding</a>
-                            <a class="dropdown-item" href="#">Baby Shower</a>
-                            <a class="dropdown-item" href="#">Birthday</a>
-                        </div>
-                    </li>
+
+                    <li>
+                        <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                    
+                    <li>
                     <a class="nav-link" href="reservation.html">Reservation</a>
                     </li>
-                    <a class="nav-link" href="event.html">Events</a>
-                    </li>
+                    
+                    <li>
                     <a class="nav-link" href="gallary.html">Gallary Events</a>
-                    </li><a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <a class="nav-link" href="contact.html">Contact</a>
 
                     </li>
                 </ul>
@@ -56,6 +58,7 @@
             </div>
         </nav>
     </header>
+
 
     <!-- Carousel here-->
 
@@ -71,9 +74,11 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="image/slide11.jpg" alt="first-slide">
-
-
-                </div>
+                    <div class="carousel-caption">
+                        <h3 class="animated flip"> Memorable Experience</h3>
+                        <h1 class="animated fadeInDown"> Healthy And Testy Food</h1>
+                    </div>
+                   </div>
 
                 <div class="carousel-item">
 
@@ -94,6 +99,57 @@
             </div>
     </section>
 
+    <!--servicess-->
+
+    <div class="section-titles text-center">
+        <h4 class=" bg-faded  font-bold"> EXPERIENCE</h4>
+        <h2 class="font15 font-bold bg-black p-3 ">OUR SERVICES</h2>
+
+ </div>
+ <div class="container1">
+<div class="row">
+    <div class="col-md-3">
+     <a href="#" class="btn  p-5 my-10" style="background-color:#a00;">
+        <i class="fa fa-cutlery" aria-hidden="true"></i>
+        <br>
+        ONLINE ORDER</a>
+        </div>
+
+        <div class="col-md-3">
+        <a href="#" class="btn p-5 my-10" style="background-color:#a00;">
+                <i class="fa fa-car" aria-hidden="true"></i>
+                <br>
+                FREE PARKING</a>
+                </div>
+
+                <div class="col-md-3">
+                <a href="#" class="btn p-5" style="background-color:#a00";>
+                        <i class="fa fa-wifi" aria-hidden="true"></i>
+                        <br>
+                        FREE WIFI</a>
+                      </div>
+                      <div class="col-md-3">
+                            <a href="#" class="btn  p-5" style="background-color:#a00";>
+                                    <i class="fa fa-bicycle" aria-hidden="true"></i>
+                                    <br>
+                                    HOME DELIVERY</a>
+                                  </div>
+
+                      
+                                
+                 </div>
+                                        
+                                        
+
+ </div>
+
+
+    
+         
+    
+
+
+    <div class="container1">
     <div class="wrap">
         <div class="row">
             <div class="col-md-4">
@@ -113,6 +169,23 @@
             </div>
         </div>
     </div>
+    </div>
+
+    <!-- social icons-->
+
+    <div class="container">
+        <div class="row text-center">
+        <div class="col-md-12">
+
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/indrenifunction/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <li><a href="https://www.facebook.com/indrenifunction/"><i class="fa fa-youtube-square" aria-hidden="true"></i></a> 
+                            <li><a href="https://www.facebook.com/indrenifunction/"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+                    </ul>
+                    </div>
+              
+            </div>
+    </div>
 
     <!--footer-->
     <footer>
@@ -120,6 +193,12 @@
         <p>Copyright @ Design and Developed by Suran</p>
 
     </footer>
+
+    <script>
+        $('.carousel').carousel({
+            interval: 3000 //changes the speed
+        })
+    </script>
 
 
 
