@@ -1,9 +1,9 @@
 /**************************/
 
-
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .wrap {
   background: #a00;
   height: 130px;
@@ -12,7 +12,13 @@ body{
   margin-bottom: 0px;
 }
 
+.wrap {
+  padding: 29px 0px 0px 50px;
+}
 
+.carousel-caption {
+  bottom: 180px;
+}
 
 
 /************** services showcase *******/
@@ -66,44 +72,50 @@ body{
   color: #fff;
 }
 
+.jumbotron {
+  padding: 0rem 1rem;
+}
+
 .header small {
   font-size: 24px;
 }
 
+
 /**********about**********/
 
 .about h1 {
-  color: #a00; 
+  color: #a00;
   margin-top: 30px;
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
 }
 
-.services p{
+.services p {
   color: #7D7D70;
   font-size: 16px;
 }
 
-.services h1{
+.services h1 {
   text-transform: uppercase;
   font-size: 30px;
   text-align: center;
   color: #a00;
 }
-.about p{
-color: #7D7D70;
+
+.about p {
+  color: #7D7D70;
   font-size: 18px;
   font-weight: 30px;
-  text-align:center;
+  text-align: center;
   line-height: 30px;
   margin-left: 30px;
   font-style: italic;
 }
 
-
-
-
+.container a {
+  color: #fff;
+}
 
 
 /******Reservation Form ************/
@@ -214,18 +226,14 @@ ul {
 
 
 /*****map****/
-#map{
+
+#map {
   height: 400px;
   width: 100%;
 }
 
 
 /******************footer*****/
-
-.social-icons ul li{
-  display: inline-block;
-}
-
 footer {
   padding: 15px;
   margin-top: 0px;
@@ -233,5 +241,3 @@ footer {
   background-color: #f0f8ff;
   text-align: center;
 }
-
-
